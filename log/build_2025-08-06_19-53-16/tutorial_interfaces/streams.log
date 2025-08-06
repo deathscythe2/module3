@@ -1,0 +1,256 @@
+[0.011s] Invoking command in '/home/kkks/exam/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kkks/exam/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/kkks/exam/install/tutorial_interfaces
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.102s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.246s] -- Detecting CXX compile features
+[0.246s] -- Detecting CXX compile features - done
+[0.251s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.373s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.477s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.536s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.545s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.556s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.648s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.653s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.745s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.773s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.817s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.831s] -- Looking for pthread.h
+[0.894s] -- Looking for pthread.h - found
+[0.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.958s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.959s] -- Found Threads: TRUE  
+[1.008s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.020s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.240s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.772s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.796s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.801s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.831s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.831s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.831s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.832s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.857s] -- Found PythonExtra: .so  
+[1.925s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.964s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.964s] -- Configured cppcheck include dirs: 
+[1.964s] -- Configured cppcheck exclude dirs and/or files: 
+[1.965s] -- Added test 'lint_cmake' to check CMake code style
+[1.966s] -- Added test 'uncrustify' to check C / C++ code style
+[1.966s] -- Configured uncrustify additional arguments: 
+[1.967s] -- Added test 'xmllint' to check XML markup files
+[1.970s] -- Configuring done
+[2.010s] -- Generating done
+[2.024s] -- Build files have been written to: /home/kkks/exam/build/tutorial_interfaces
+[2.052s] Invoked command in '/home/kkks/exam/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kkks/exam/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/kkks/exam/install/tutorial_interfaces
+[2.055s] Invoking command in '/home/kkks/exam/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkks/exam/build/tutorial_interfaces -- -j16 -l16
+[2.125s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.144s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.159s] [  5%] Built target ament_cmake_python_copy_tutorial_interfaces
+[2.530s] [  8%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[2.530s] [  8%] Built target tutorial_interfaces__cpp
+[2.547s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.547s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.548s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.566s] running egg_info
+[2.567s] creating tutorial_interfaces.egg-info
+[2.567s] writing tutorial_interfaces.egg-info/PKG-INFO
+[2.568s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[2.568s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[2.568s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.575s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.576s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.600s] [ 20%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[2.662s] [ 20%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[2.673s] [ 20%] Built target tutorial_interfaces__rosidl_generator_c
+[2.691s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.691s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.691s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.972s] [ 31%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[2.979s] [ 34%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[3.049s] [ 37%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[3.106s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[3.163s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[3.188s] [ 45%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[3.228s] [ 48%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[3.263s] [ 51%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.312s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_c
+[3.332s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[3.440s] [ 54%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[3.505s] [ 54%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[3.540s] [ 60%] [32mBuilding CXX object CMakeFiles/talker.dir/src/custompublisher.cpp.o[0m
+[3.541s] [ 60%] [32mBuilding CXX object CMakeFiles/listener.dir/src/customsubscriber.cpp.o[0m
+[3.562s] [ 62%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.565s] [ 65%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.686s] [ 68%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.724s] [ 68%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[3.761s] [ 68%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[3.873s] [ 68%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.911s] [ 68%] Built target tutorial_interfaces
+[3.951s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.346s] [ 71%] Built target tutorial_interfaces__py
+[4.385s] [ 74%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[4.549s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[4.636s] [ 77%] Built target tutorial_interfaces__rosidl_generator_py
+[4.672s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.672s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.672s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.821s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.821s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.821s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.887s] [ 94%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[4.887s] [ 94%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.887s] [ 94%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.721s] [ 97%] [32m[1mLinking CXX executable talker[0m
+[8.976s] [ 97%] Built target talker
+[12.541s] [100%] [32m[1mLinking CXX executable listener[0m
+[12.812s] [100%] Built target listener
+[12.824s] Invoked command in '/home/kkks/exam/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkks/exam/build/tutorial_interfaces -- -j16 -l16
+[12.826s] Invoking command in '/home/kkks/exam/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkks/exam/build/tutorial_interfaces
+[12.833s] -- Install configuration: ""
+[12.833s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[12.833s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[12.833s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[12.833s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[12.833s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[12.833s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[12.834s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[12.834s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[12.834s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.834s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[12.834s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[12.834s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[12.834s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[12.835s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[12.835s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[12.835s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[12.835s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.835s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[12.835s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[12.835s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.835s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.835s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[12.836s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[12.836s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[12.836s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[12.836s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[12.836s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp
+[12.836s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[12.836s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[12.836s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.836s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[12.836s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[12.836s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[12.836s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[12.836s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[12.837s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.837s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.837s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.837s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[12.837s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[12.837s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[12.837s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[12.837s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[12.837s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.837s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[12.838s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.838s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[12.838s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[12.838s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[12.838s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[12.838s] -- Up-to-date: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[12.838s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[12.838s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[12.838s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.839s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.839s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[12.839s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.839s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[12.839s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[12.839s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[12.839s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[12.839s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.839s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.840s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[12.840s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[12.840s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg
+[12.840s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c
+[12.840s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py
+[12.840s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[12.840s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[12.840s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.840s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.840s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[12.841s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.841s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.841s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.841s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[12.868s] Listing '/home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[12.868s] Compiling '/home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[12.868s] Listing '/home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[12.868s] Compiling '/home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...
+[12.868s] Compiling '/home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...
+[12.872s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.872s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.872s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.872s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.873s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.873s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.873s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[12.873s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[12.873s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[12.873s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[12.874s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/lib/tutorial_interfaces/talker
+[12.875s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/lib/tutorial_interfaces/talker" to ""
+[12.875s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/lib/tutorial_interfaces/listener
+[12.878s] -- Set runtime path of "/home/kkks/exam/install/tutorial_interfaces/lib/tutorial_interfaces/listener" to ""
+[12.878s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[12.878s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[12.878s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[12.878s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[12.878s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[12.879s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[12.879s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[12.879s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[12.879s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[12.879s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[12.879s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[12.879s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[12.879s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[12.880s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.880s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.880s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.880s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[12.880s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.880s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.880s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.881s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.881s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[12.881s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.881s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.881s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.881s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[12.881s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.882s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[12.882s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.882s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.882s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.882s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.882s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.882s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.882s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.883s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.883s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[12.883s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[12.883s] -- Installing: /home/kkks/exam/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[12.886s] Invoked command in '/home/kkks/exam/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkks/exam/build/tutorial_interfaces

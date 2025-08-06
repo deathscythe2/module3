@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c5130f5e27492cde0cd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "examine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-broadcaster-0f22db7b1557312d607f.json",
+					"name" : "broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "broadcaster_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-broadcaster_sub-d4b9c9dbd625446eb07e.json",
+					"name" : "broadcaster_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client-4b1a40f5ef6be780e824.json",
+					"name" : "client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "draw_square::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-draw_square-193db5e4640563bead14.json",
+					"name" : "draw_square",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examine_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examine_uninstall-99daa6313622f9c769f3.json",
+					"name" : "examine_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher-67cd2825f4dd44a92f0b.json",
+					"name" : "publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server-a44374cc923638712d9e.json",
+					"name" : "server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber-0405dfcb512d5c7d7f91.json",
+					"name" : "subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtleclone::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtleclone-25ef116b93117e79cb2e.json",
+					"name" : "turtleclone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-488f85581416eae25961.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kkks/exam/build/examine",
+		"source" : "/home/kkks/exam/examine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

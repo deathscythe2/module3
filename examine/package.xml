@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>examine</name>
+  <version>0.0.0</version>
+  <description>ROS 2 exam practice package without services</description>
+
+  <maintainer email="kkks@todo.todo">kkks</maintainer>
+  <license>Apache License 2.0</license>
+
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>turtlesim</depend>
+
+
+  
+  <exec_depend>ros2launch</exec_depend>
+
+  
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+ 
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

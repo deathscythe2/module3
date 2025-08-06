@@ -1,0 +1,104 @@
+[0.017s] Invoking command in '/home/kkks/exam/build/examine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kkks/exam/examine -DCMAKE_INSTALL_PREFIX=/home/kkks/exam/install/examine
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.260s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.485s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.544s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.553s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.564s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.578s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.597s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.656s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.661s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.752s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.780s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.824s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.838s] -- Looking for pthread.h
+[0.902s] -- Looking for pthread.h - found
+[0.902s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.967s] -- Found Threads: TRUE  
+[1.016s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.028s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[1.043s] -- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.132s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.145s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.216s] -- Configuring done
+[1.241s] -- Generating done
+[1.252s] -- Build files have been written to: /home/kkks/exam/build/examine
+[1.263s] Invoked command in '/home/kkks/exam/build/examine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kkks/exam/examine -DCMAKE_INSTALL_PREFIX=/home/kkks/exam/install/examine
+[1.265s] Invoking command in '/home/kkks/exam/build/examine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkks/exam/build/examine -- -j16 -l16
+[1.310s] [ 18%] [32mBuilding CXX object CMakeFiles/draw_square.dir/src/draw_square.cpp.o[0m
+[1.310s] [ 18%] [32mBuilding CXX object CMakeFiles/broadcaster_sub.dir/src/broadcaster_sub.cpp.o[0m
+[1.311s] [ 18%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.311s] [ 31%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[1.311s] [ 31%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[1.311s] [ 37%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.311s] [ 43%] [32mBuilding CXX object CMakeFiles/broadcaster.dir/src/broadcaster.cpp.o[0m
+[1.312s] [ 50%] [32mBuilding CXX object CMakeFiles/turtleclone.dir/src/turtleclone.cpp.o[0m
+[6.438s] [ 56%] [32m[1mLinking CXX executable client[0m
+[6.440s] [ 62%] [32m[1mLinking CXX executable server[0m
+[6.688s] [ 62%] Built target client
+[6.700s] [ 62%] Built target server
+[7.169s] [ 68%] [32m[1mLinking CXX executable publisher[0m
+[7.348s] [ 75%] [32m[1mLinking CXX executable draw_square[0m
+[7.448s] [ 75%] Built target publisher
+[7.597s] [ 75%] Built target draw_square
+[9.060s] [ 81%] [32m[1mLinking CXX executable turtleclone[0m
+[9.330s] [ 81%] Built target turtleclone
+[11.027s] [ 87%] [32m[1mLinking CXX executable subscriber[0m
+[11.040s] [ 93%] [32m[1mLinking CXX executable broadcaster[0m
+[11.401s] [ 93%] Built target subscriber
+[11.424s] [100%] [32m[1mLinking CXX executable broadcaster_sub[0m
+[11.474s] [100%] Built target broadcaster
+[11.761s] [100%] Built target broadcaster_sub
+[11.773s] Invoked command in '/home/kkks/exam/build/examine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkks/exam/build/examine -- -j16 -l16
+[11.783s] Invoking command in '/home/kkks/exam/build/examine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkks/exam/build/examine
+[11.791s] -- Install configuration: ""
+[11.791s] -- Installing: /home/kkks/exam/install/examine/lib/examine/turtleclone
+[11.792s] -- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/turtleclone" to ""
+[11.792s] -- Installing: /home/kkks/exam/install/examine/lib/examine/broadcaster
+[11.796s] -- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/broadcaster" to ""
+[11.796s] -- Installing: /home/kkks/exam/install/examine/lib/examine/broadcaster_sub
+[11.799s] -- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/broadcaster_sub" to ""
+[11.799s] -- Installing: /home/kkks/exam/install/examine/lib/examine/draw_square
+[11.800s] -- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/draw_square" to ""
+[11.800s] -- Installing: /home/kkks/exam/install/examine/lib/examine/publisher
+[11.801s] -- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/publisher" to ""
+[11.801s] -- Installing: /home/kkks/exam/install/examine/lib/examine/subscriber
+[11.804s] -- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/subscriber" to ""
+[11.804s] -- Installing: /home/kkks/exam/install/examine/lib/examine/server
+[11.805s] -- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/server" to ""
+[11.805s] -- Installing: /home/kkks/exam/install/examine/lib/examine/client
+[11.806s] -- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/client" to ""
+[11.806s] -- Installing: /home/kkks/exam/install/examine/share/examine/launch
+[11.806s] -- Installing: /home/kkks/exam/install/examine/share/examine/launch/nofour.launch.py
+[11.806s] -- Installing: /home/kkks/exam/install/examine/share/examine/launch/drawsquarett.launch.py
+[11.806s] -- Installing: /home/kkks/exam/install/examine/share/examine/launch/followtt.launch.py
+[11.806s] -- Installing: /home/kkks/exam/install/examine/share/ament_index/resource_index/package_run_dependencies/examine
+[11.807s] -- Installing: /home/kkks/exam/install/examine/share/ament_index/resource_index/parent_prefix_path/examine
+[11.807s] -- Installing: /home/kkks/exam/install/examine/share/examine/environment/ament_prefix_path.sh
+[11.807s] -- Installing: /home/kkks/exam/install/examine/share/examine/environment/ament_prefix_path.dsv
+[11.807s] -- Installing: /home/kkks/exam/install/examine/share/examine/environment/path.sh
+[11.807s] -- Installing: /home/kkks/exam/install/examine/share/examine/environment/path.dsv
+[11.807s] -- Installing: /home/kkks/exam/install/examine/share/examine/local_setup.bash
+[11.807s] -- Installing: /home/kkks/exam/install/examine/share/examine/local_setup.sh
+[11.807s] -- Installing: /home/kkks/exam/install/examine/share/examine/local_setup.zsh
+[11.808s] -- Installing: /home/kkks/exam/install/examine/share/examine/local_setup.dsv
+[11.808s] -- Installing: /home/kkks/exam/install/examine/share/examine/package.dsv
+[11.808s] -- Installing: /home/kkks/exam/install/examine/share/ament_index/resource_index/packages/examine
+[11.808s] -- Installing: /home/kkks/exam/install/examine/share/examine/cmake/examineConfig.cmake
+[11.808s] -- Installing: /home/kkks/exam/install/examine/share/examine/cmake/examineConfig-version.cmake
+[11.808s] -- Installing: /home/kkks/exam/install/examine/share/examine/package.xml
+[11.810s] Invoked command in '/home/kkks/exam/build/examine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkks/exam/build/examine

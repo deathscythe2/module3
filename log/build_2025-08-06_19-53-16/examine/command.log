@@ -1,0 +1,6 @@
+Invoking command in '/home/kkks/exam/build/examine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kkks/exam/examine -DCMAKE_INSTALL_PREFIX=/home/kkks/exam/install/examine
+Invoked command in '/home/kkks/exam/build/examine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kkks/exam/examine -DCMAKE_INSTALL_PREFIX=/home/kkks/exam/install/examine
+Invoking command in '/home/kkks/exam/build/examine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkks/exam/build/examine -- -j16 -l16
+Invoked command in '/home/kkks/exam/build/examine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkks/exam/build/examine -- -j16 -l16
+Invoking command in '/home/kkks/exam/build/examine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkks/exam/build/examine
+Invoked command in '/home/kkks/exam/build/examine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkks/exam/build/examine

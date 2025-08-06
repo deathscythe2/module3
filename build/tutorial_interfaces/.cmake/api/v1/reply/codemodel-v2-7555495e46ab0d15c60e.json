@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ae218707e2e361d339f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "tutorial_interfaces__py",
+					"jsonFile" : "directory-tutorial_interfaces__py-16d0d03509e101db4598.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/kkks/exam/build/tutorial_interfaces/tutorial_interfaces__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "tutorial_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tutorial_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tutorial_interfaces_egg-dbe5e05b9b029a359673.json",
+					"name" : "ament_cmake_python_build_tutorial_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_tutorial_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_tutorial_interfaces-a5c1facd17ea040ec688.json",
+					"name" : "ament_cmake_python_copy_tutorial_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener-da67dee76852d5709bdb.json",
+					"name" : "listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-talker-d8e0dbc6253ce3cec886.json",
+					"name" : "talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces-6d9001d18c01e4ae617e.json",
+					"name" : "tutorial_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__cpp-5bd173c0ca7774053b1c.json",
+					"name" : "tutorial_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tutorial_interfaces__py::@f93b99e493d3861714db",
+					"jsonFile" : "target-tutorial_interfaces__py-b43f983f7283ffd4187e.json",
+					"name" : "tutorial_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_generator_c-7077bd9bf68f2e638a1a.json",
+					"name" : "tutorial_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_generator_py-58576442638cc0e20328.json",
+					"name" : "tutorial_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_c-8acad8b8eb9e15d58291.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_c__pyext-28fb8d681f48d9d3394d.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_cpp-3f905c156c9a136ad410.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_fastrtps_c-798f7c096ad30964dbcc.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext-ad1ff4f1370b88e462d2.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_fastrtps_cpp-46827de3610ef27d7d13.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_introspection_c-a890417f87ca2f1fab6a.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_introspection_c__pyext-53e0bb6a0ac2446a5739.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces__rosidl_typesupport_introspection_cpp-822e58d7527b87d36aa1.json",
+					"name" : "tutorial_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_interfaces_uninstall-bc2955f7b135931ba1ef.json",
+					"name" : "tutorial_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-14f9dcb4e3d1001fa4a2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kkks/exam/build/tutorial_interfaces",
+		"source" : "/home/kkks/exam/tutorial_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

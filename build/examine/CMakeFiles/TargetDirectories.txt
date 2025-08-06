@@ -1,0 +1,17 @@
+/home/kkks/exam/build/examine/CMakeFiles/uninstall.dir
+/home/kkks/exam/build/examine/CMakeFiles/examine_uninstall.dir
+/home/kkks/exam/build/examine/CMakeFiles/turtleclone.dir
+/home/kkks/exam/build/examine/CMakeFiles/publisher.dir
+/home/kkks/exam/build/examine/CMakeFiles/subscriber.dir
+/home/kkks/exam/build/examine/CMakeFiles/draw_square.dir
+/home/kkks/exam/build/examine/CMakeFiles/broadcaster.dir
+/home/kkks/exam/build/examine/CMakeFiles/broadcaster_sub.dir
+/home/kkks/exam/build/examine/CMakeFiles/server.dir
+/home/kkks/exam/build/examine/CMakeFiles/client.dir
+/home/kkks/exam/build/examine/CMakeFiles/test.dir
+/home/kkks/exam/build/examine/CMakeFiles/edit_cache.dir
+/home/kkks/exam/build/examine/CMakeFiles/rebuild_cache.dir
+/home/kkks/exam/build/examine/CMakeFiles/list_install_components.dir
+/home/kkks/exam/build/examine/CMakeFiles/install.dir
+/home/kkks/exam/build/examine/CMakeFiles/install/local.dir
+/home/kkks/exam/build/examine/CMakeFiles/install/strip.dir

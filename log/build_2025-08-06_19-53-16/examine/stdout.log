@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kkks/exam/build/examine
+[ 18%] [32mBuilding CXX object CMakeFiles/draw_square.dir/src/draw_square.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/broadcaster_sub.dir/src/broadcaster_sub.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/broadcaster.dir/src/broadcaster.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtleclone.dir/src/turtleclone.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable client[0m
+[ 62%] [32m[1mLinking CXX executable server[0m
+[ 62%] Built target client
+[ 62%] Built target server
+[ 68%] [32m[1mLinking CXX executable publisher[0m
+[ 75%] [32m[1mLinking CXX executable draw_square[0m
+[ 75%] Built target publisher
+[ 75%] Built target draw_square
+[ 81%] [32m[1mLinking CXX executable turtleclone[0m
+[ 81%] Built target turtleclone
+[ 87%] [32m[1mLinking CXX executable subscriber[0m
+[ 93%] [32m[1mLinking CXX executable broadcaster[0m
+[ 93%] Built target subscriber
+[100%] [32m[1mLinking CXX executable broadcaster_sub[0m
+[100%] Built target broadcaster
+[100%] Built target broadcaster_sub
+-- Install configuration: ""
+-- Installing: /home/kkks/exam/install/examine/lib/examine/turtleclone
+-- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/turtleclone" to ""
+-- Installing: /home/kkks/exam/install/examine/lib/examine/broadcaster
+-- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/broadcaster" to ""
+-- Installing: /home/kkks/exam/install/examine/lib/examine/broadcaster_sub
+-- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/broadcaster_sub" to ""
+-- Installing: /home/kkks/exam/install/examine/lib/examine/draw_square
+-- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/draw_square" to ""
+-- Installing: /home/kkks/exam/install/examine/lib/examine/publisher
+-- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/publisher" to ""
+-- Installing: /home/kkks/exam/install/examine/lib/examine/subscriber
+-- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/subscriber" to ""
+-- Installing: /home/kkks/exam/install/examine/lib/examine/server
+-- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/server" to ""
+-- Installing: /home/kkks/exam/install/examine/lib/examine/client
+-- Set runtime path of "/home/kkks/exam/install/examine/lib/examine/client" to ""
+-- Installing: /home/kkks/exam/install/examine/share/examine/launch
+-- Installing: /home/kkks/exam/install/examine/share/examine/launch/nofour.launch.py
+-- Installing: /home/kkks/exam/install/examine/share/examine/launch/drawsquarett.launch.py
+-- Installing: /home/kkks/exam/install/examine/share/examine/launch/followtt.launch.py
+-- Installing: /home/kkks/exam/install/examine/share/ament_index/resource_index/package_run_dependencies/examine
+-- Installing: /home/kkks/exam/install/examine/share/ament_index/resource_index/parent_prefix_path/examine
+-- Installing: /home/kkks/exam/install/examine/share/examine/environment/ament_prefix_path.sh
+-- Installing: /home/kkks/exam/install/examine/share/examine/environment/ament_prefix_path.dsv
+-- Installing: /home/kkks/exam/install/examine/share/examine/environment/path.sh
+-- Installing: /home/kkks/exam/install/examine/share/examine/environment/path.dsv
+-- Installing: /home/kkks/exam/install/examine/share/examine/local_setup.bash
+-- Installing: /home/kkks/exam/install/examine/share/examine/local_setup.sh
+-- Installing: /home/kkks/exam/install/examine/share/examine/local_setup.zsh
+-- Installing: /home/kkks/exam/install/examine/share/examine/local_setup.dsv
+-- Installing: /home/kkks/exam/install/examine/share/examine/package.dsv
+-- Installing: /home/kkks/exam/install/examine/share/ament_index/resource_index/packages/examine
+-- Installing: /home/kkks/exam/install/examine/share/examine/cmake/examineConfig.cmake
+-- Installing: /home/kkks/exam/install/examine/share/examine/cmake/examineConfig-version.cmake
+-- Installing: /home/kkks/exam/install/examine/share/examine/package.xml

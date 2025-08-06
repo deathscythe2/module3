@@ -1,0 +1,37 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+       
+        Node(
+            package='turtlesim',
+            executable='turtlesim_node',
+            name='sim1'
+        ),
+        Node(
+            package='examine',
+            executable='broadcaster',
+            name='broadcaster1',
+            parameters=[{'turtlename': 'turtle1'}]
+        ),
+        Node(
+            package='examine',
+            executable='broadcaster',
+            name='broadcaster2',
+            parameters=[{'turtlename': 'turtle2'}]
+        ),
+        Node(
+            package='examine',
+            executable='turtleclone',
+            name='turtle2_listener',
+            parameters=[
+                {"target_frame": "turtle1"},
+                {"turtle_name": "turtle2"},
+                {"spawn_x": 2.0},
+                {"spawn_y": 2.0},
+                {"spawn_theta": 0.0},
+            ],
+        ),
+
+    ])
